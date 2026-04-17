@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.self_introduction.ui.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_about"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_home_to_contact"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_home_to_chinchiro"
+            app:destination="@id/chinchiroFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="com.example.self_introduction.ui.SkillsFragment"
+        android:label="Skills" />
+
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="com.example.self_introduction.ui.ProjectsFragment"
+        android:label="Projects" />
+
+    <fragment
+        android:id="@+id/journeyFragment"
+        android:name="com.example.self_introduction.ui.JourneyFragment"
+        android:label="Journey" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.self_introduction.ui.AboutFragment"
+        android:label="About" />
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.self_introduction.ui.ContactFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/chinchiroFragment"
+        android:name="com.example.self_introduction.ui.ChinchiroFragment"
+        android:label="Chinchiro" />
+
+</navigation>
+

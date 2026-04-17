@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Self Introduction</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_skills">Skills</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_journey">Journey</string>
+    <string name="btn_about_me">About Me</string>
+    <string name="btn_contact">Contact</string>
+    <string name="label_name">Your Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_message">Message</string>
+    <string name="btn_send">Send Message</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_message">Your message...</string>
+    <string name="dice_roll">Roll Dice</string>
+    <string name="dice_result">Result</string>
+    <string name="github">GitHub</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="email">Email</string>
+</resources>
